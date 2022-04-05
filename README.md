@@ -1,41 +1,33 @@
-# 程序员做饭指南
+# programmer's guide about how to cook at home
 
-[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/Anduin2017/HowToCook)](./LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Anduin2017/HowToCook)](https://github.com/Anduin2017/HowToCook/graphs/contributors)
-[![npm](https://img.shields.io/npm/v/how-to-cook)](https://www.npmjs.com/package/how-to-cook)
+Translated from https://github.com/Anduin2017/HowToCook
+Last Translation Update 05 April 2022
 
-最近在家隔离，出不了门。只能宅在家做饭了。作为程序员，我偶尔在网上找找菜谱和做法。但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。
+## How to Contribute
 
-所以，我计划自己搜寻菜谱和并结合实际做菜的经验，准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。
+For the problems found, you can directly modify and submit a Pull request.
 
-同样，我希望它是一个由社区驱动和维护的开源项目，使更多人能够一起做一个有趣的仓库。所以非常欢迎大家贡献它~
+When writing new recipes, copy and modify existing recipe templates: [Sample Template](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
 
-## 如何贡献
+## Cooking Preparation
 
-针对发现的问题，直接修改并提交 Pull request 即可。
+- [Kitchen Preparation](./tips/厨房准备.md)
+- [Choose what to eat](./tips/如何选择现在吃什么.md)
+- [High Perssure Cooker](./tips/learn/高压力锅.md)
+- [Food Safety](./tips/learn/食品安全.md)
+- [Microwave](./tips/learn/微波炉.md)
+- [Learn to Blanch](./tips/learn/学习焯水.md)
+- [Learn to Fry](./tips/learn/学习炒与煎.md)
+- [Learn to Salad](./tips/learn/学习凉拌.md)
+- [Learn to Pickle](./tips/learn/学习腌.md)
+- [learn to Steam](./tips/learn/学习蒸.md)
+- [Learn to Cook](./tips/learn/学习煮.md)
 
-在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
+## Cookbook
 
-## 做菜之前
+### Home Cooking
 
-- [厨房准备](./tips/厨房准备.md)
-- [如何选择现在吃什么](./tips/如何选择现在吃什么.md)
-- [高压力锅](./tips/learn/高压力锅.md)
-- [食品安全](./tips/learn/食品安全.md)
-- [微波炉](./tips/learn/微波炉.md)
-- [学习焯水](./tips/learn/学习焯水.md)
-- [学习炒与煎](./tips/learn/学习炒与煎.md)
-- [学习凉拌](./tips/learn/学习凉拌.md)
-- [学习腌](./tips/learn/学习腌.md)
-- [学习蒸](./tips/learn/学习蒸.md)
-- [学习煮](./tips/learn/学习煮.md)
-
-## 菜谱
-
-### 家常菜
-
-### 素菜
+### Vegetable  
 
 - [菠菜炒鸡蛋](./dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md)
 - [炒滑蛋](./dishes/vegetable_dish/炒滑蛋/炒滑蛋.md)
@@ -68,7 +60,7 @@
 - [西葫芦炒鸡蛋](./dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md)
 - [洋葱炒鸡蛋](./dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md)
 
-### 荤菜
+### Meat 
 
 - [白菜猪肉炖粉条](./dishes/meat_dish/白菜猪肉炖粉条.md)
 - [宫保鸡丁](./dishes/meat_dish/宫保鸡丁/宫保鸡丁.md)
@@ -118,7 +110,7 @@
 - [猪皮冻](./dishes/meat_dish/猪皮冻/猪皮冻.md)
 - [孜然牛肉](./dishes/meat_dish/孜然牛肉.md)
 
-### 水产
+### Seafood
 
 - [白灼虾](./dishes/aquatic/白灼虾/白灼虾.md)
 - [鳊鱼炖豆腐](./dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md)
@@ -137,7 +129,7 @@
 - [香煎翘嘴鱼](./dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md)
 - [小龙虾](./dishes/aquatic/小龙虾/小龙虾.md)
 
-### 早餐
+### Breakfast
 
 - [茶叶蛋](./dishes/breakfast/茶叶蛋.md)
 - [桂圆红枣粥](./dishes/breakfast/桂圆红枣粥.md)
@@ -155,7 +147,7 @@
 - [蒸花卷](./dishes/breakfast/蒸花卷.md)
 - [蒸水蛋](./dishes/breakfast/蒸水蛋.md)
 
-### 主食
+### Main Course
 
 - [炒方便面](./dishes/staple/炒方便面.md)
 - [炒河粉](./dishes/staple/炒河粉.md)
@@ -185,7 +177,7 @@
 - [煮泡面加蛋](./dishes/staple/煮泡面加蛋.md)
 - [披萨饼皮](./dishes/staple/pizza/披萨饼皮.md)
 
-### 半成品加工
+### Semi Cooked
 
 - [半成品意面](./dishes/semi-finished/半成品意面.md)
 - [懒人蛋挞](./dishes/semi-finished/懒人蛋挞/懒人蛋挞.md)
@@ -195,7 +187,7 @@
 - [速冻汤圆](./dishes/semi-finished/速冻汤圆/速冻汤圆.md)
 - [炸薯条](./dishes/semi-finished/炸薯条/炸薯条.md)
 
-### 汤与粥
+### Soup & Broth 
 
 - [昂刺鱼豆腐汤](./dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md)
 - [勾芡香菇汤](./dishes/soup/勾芡香菇汤/勾芡香菇汤.md)
@@ -210,7 +202,7 @@
 - [银耳莲子粥](./dishes/soup/银耳莲子粥/银耳莲子粥.md)
 - [紫菜蛋花汤](./dishes/soup/紫菜蛋花汤.md)
 
-### 饮料
+### Drinks
 
 - [耙耙柑茶](./dishes/drink/耙耙柑茶/耙耙柑茶.md)
 - [百香果橙子特调](./dishes/drink/百香果橙子特调/百香果橙子特调.md)
@@ -226,7 +218,7 @@
 - [B52轰炸机](./dishes/drink/B52轰炸机.md)
 - [Mojito莫吉托](./dishes/drink/Mojito莫吉托.md)
 
-### 酱料和其它材料
+### Sauce and Other Ingredients
 
 - [草莓酱](./dishes/condiment/草莓酱/草莓酱.md)
 - [蒜香酱油](./dishes/condiment/蒜香酱油.md)
@@ -237,7 +229,7 @@
 - [炸串酱料](./dishes/condiment/炸串酱料.md)
 - [蔗糖糖浆](./dishes/condiment/蔗糖糖浆/蔗糖糖浆.md)
 
-### 甜品
+### Dessert
 
 - [奥利奥冰淇淋](./dishes/dessert/奥利奥冰淇淋/奥利奥冰淇淋.md)
 - [烤蛋挞](./dishes/dessert/烤蛋挞/烤蛋挞.md)
@@ -247,7 +239,7 @@
 - [雪花酥](./dishes/dessert/雪花酥/雪花酥.md)
 - [芋泥雪媚娘](./dishes/dessert/芋泥雪媚娘/芋泥雪媚娘.md)
 
-## 进阶知识学习
+## Advanced Learning
 
 如果你已经做了许多上面的菜，对于厨艺已经入门，并且想学习更加高深的烹饪技巧，请继续阅读下面的内容：
 
