@@ -1,136 +1,136 @@
-# 如何贡献
+# How to Contribute
 
-## 简介
+## Introduction
 
-直接修改/添加做菜指南并提交 Pull request 即可。
+Just modify/add the cooking guide and submit a Pull request.
 
-在写新菜谱时，请复制并修改已有的模板: [示例菜](./dishes/template/示例菜/示例菜.md)。
+When writing a new recipe, please copy and modify an existing template: [Sample recipe](./dishes/template/示例菜/示例菜.md)。
 
-我们建议在贡献之前，阅读仓库的[行为守则](./CODE_OF_CONDUCT.md)。
+We recommend reading the repository's [Code of Conduct] before contributing (./CODE_OF_CONDUCT.md)。
 
-## 内容规范
+## Content Specification
 
-菜谱提交者**无需**阅读此内容规范。以下内容已经以简明易懂的方式包含在示例模板中。项目的维护者会在你的 PR 中提出建议, 并协助修改。
+Recipe submitters **not required** to read this content specification. The following content has been included in the sample template in a concise and understandable manner. The maintainers of the project will make suggestions in your PR and assist with changes.
 
-本项目的 Motivation 要求菜谱满足以下规范，不符合规范的菜谱将不会被合并到代码库中。项目的维护者维护此文档, 作为正式的标准与共识。
+The Motivation of this project requires recipes to meet the following specifications, and recipes that do not meet the specifications will not be merged into the codebase. The maintainers of the project maintain this document as a formal standard and consensus.
 
-- 每一道菜谱至少应包含`原材料与工具`, `计算`, `操作`三部分内容。
+- Each recipe should contain at least three parts: `raw materials and tools`, `calculation`, `operation`.
 
-`原材料与工具`应列出本菜品需要的除`假想已准备好的物品`外的所有原材料与厨具。
-`计算`应定量列出本菜品所需的原材料的量。（无论与人数是否相关）
-`操作`应说明菜品的制作步骤。
+'Ingredients and tools' should list all the raw materials and utensils required for this dish except the 'imaginary prepared items'.
+`Calculation` should quantify the amount of raw materials required for the dish. (regardless of whether it is related to the number of people)
+`Operation` should describe the steps for preparing the dish.
 
-- 菜品的制作步骤应当明确（无歧义,non-ambiguous），并尽可能准确(accurate)。有歧义(ambiguous)的描述是不可接受的，而不准确(inaccurate)或不精确(imprecise)的描述是可以接受的。
+- The preparation steps of the dish should be clear (non-ambiguous, non-ambiguous) and as accurate as possible. Ambiguous descriptions are not acceptable, while inaccurate or imprecise descriptions are acceptable.
 
-> 不准确的菜谱会导致菜品口味有少许偏差，不明确的菜谱会导致做菜人的心态有明显不安。
+> Inaccurate recipes will lead to slight deviations in the taste of dishes, and unclear recipes will lead to obvious anxiety of the cook.
 
-举例：有歧义的描述
+Example: Ambiguous description
 
-```
-# 解释：此处对于盐量的描述是有歧义的。
-#       因为对于某个数量的盐，用户无法得出确定的客观结论：此数量是否属于"少量"。
-加入少量盐
+````
+# Explanation: The description of the amount of salt here is ambiguous.
+# Because for a certain amount of salt, the user cannot draw a definite objective conclusion: whether this amount is "small" or not.
+add a pinch of salt
 
-加入几滴蚝油
-将锅加热至八分热
-撒上少许葱花
-煮至鸡肉断生
-```
+Add a few drops of oyster sauce
+Heat the pan to eighth
+Sprinkle a little chopped green onion
+Cook until the chicken is broken
+````
 
-举例：无歧义的描述
+Example: unambiguous description
 
-```
-# 解释：此处对于锅的温度的描述是不准确的（可能是200摄氏度左右的任何温度），但这个描述是无歧义的。
-#       因为对于锅的某个状态，用户可以进行水滴测试，并得出确定的客观结论：此状态要么符合要求，要么不符合要求。
-加热锅，直至"滴入几滴水时，水珠能够在锅上迅速滚动而不吸附"
-加热锅，直至观察到莱顿弗罗斯特现象
+````
+# Explanation: The description of the temperature of the pot here is inaccurate (it could be anything around 200 degrees Celsius), but the description is unambiguous.
+# Because for a certain state of the pot, the user can perform a water drop test and draw a definite objective conclusion: this state either meets the requirements or does not meet the requirements.
+Heat the pot until "when a few drops of water are added, the water droplets roll quickly on the pot without sticking"
+Heat the pan until the Leidenfrost phenomenon is observed
 
-加入5ml酱油
-等到水沸腾后
-继续煮，直到汤汁剩下二分之一
-煎至表面呈金黄色
-继续翻炒两分钟
+Add 5ml soy sauce
+wait until the water boils
+Continue to cook until half of the soup remains
+Fry until golden brown
+Continue to fry for two minutes
 
-# 食材所可能粘附的蛋液的量是确定的
-裹上蛋液
+# The amount of egg liquid that the ingredients may adhere to is determined
+Coated with egg wash
 
-# 在'计算'中已提及将用到葱花的量
-撒上葱花
-```
+# The amount of chopped green onion to be used has been mentioned in 'Calculation'
+sprinkle with chopped green onion
+````
 
-考虑到现实因素，对于某些在家庭厨房中确实难以明确描述的因素，可以作为特例排除。例如
+Considering practical factors, some factors that are really difficult to clearly describe in the home kitchen can be excluded as special cases. E.g
 
-```
-# 在描述燃气灶火焰强度时
-文火, 小火, 中火, 大火 等
-# 在描述颜色时
-金黄色 等
-# 在描述硬度时
-变软 变硬
-```
+````
+# When describing the flame intensity of a gas stove
+Slow fire, small fire, medium fire, large fire, etc.
+# when describing colors
+golden yellow etc.
+# when describing hardness
+become softer
+````
 
-- 菜品的`制作步骤`应当完整(complete)。这意味着, 在执行完所有操作步骤后, 菜品已经被完成。
+- The `production steps` of the dish should be complete. This means that after performing all the operating steps, the dish has been completed.
 
-- 菜品的`原材料与工具`应当完整(complete)。这意味着, 在执行操作步骤时, 没有用到`原材料与工具`中未提到的物品。
+- The 'raw materials and tools' of the dish should be complete. This means that items not mentioned in 'Materials and Tools' are not used when performing the steps.
 
-## 审核员须知
+## Notes for auditors
 
-下面的内容仅供参与菜谱审批的人员参考。
+The content below is for reference only by those involved in the approval of recipes.
 
-审批时，最重要的是避免歧义：保证按照他的菜谱尽可能没有灵活发挥空间。所有歧义都要指出。就是，无论是个大厨还是个萌新，只要按照菜谱，做出来的效果应该完全一样。
+When approving, the most important thing is to avoid ambiguity: to ensure that there is as little flexibility as possible in accordance with his recipe. All ambiguities are to be pointed out. That is, whether it is a master chef or a newbie, as long as you follow the recipe, the effect should be exactly the same.
 
-- 绝对不允许菜谱中出现灵活发挥的空间。不允许让厨师自己斟酌加入的量。不允许出现 `适量` `少量`
-- 绝对不允许出现允许厨师自己决策的步骤。例如：`可以根据自己的喜好调整煮的时间`这类语句
-- 针对单个大小体积重量差距极大的物体，不允许用个来约束，要额外标注重量 g
-- 勺 不是一个可靠的单位。建议换成毫升 ml
-- 确保文件路径合理，文件引用正确，没有签入无意义的文件
-- 对蒜的描述，指的是三头还是三瓣可能产生歧义
-- 允许出现 `大火` `中火` `小火`
-- 任何标点符号，例如顿号，都需要额外确认是否是`可以替代的或`，还是`必须同时添加的和`
-- 如果一个原材料仅仅计算了一次，而引用了多次，必须额外确认每次引用时指的量的多少
-- 确保他在合并前更新了 Readme 对他的菜谱的引用，如果他是在新加菜谱的话
-- 确保他没有破坏模板的一二级标题格式
-- 确保他没有删除模板中必需的内容
-- 确保他删除干净了模板里的注释
-- 确保分类正确，不和已有的菜名重复
-- 确保签入的内容都符合 CC0 协议。尤其注意图片是否有水印！
-- 确保他没有签入任何个人身份信息、EUII、Email 地址、GitHub 用户名
+- Absolutely no room for flexibility in the recipe. The chef is not allowed to decide the amount to be added. `Appropriate amount` `Small amount` is not allowed
+- Steps that allow chefs to make their own decisions are absolutely not allowed. For example: `You can adjust the cooking time according to your own preferences` such statements
+- For a single object with a huge difference in size, volume and weight, it is not allowed to use it as a constraint, and an additional weight g must be marked
+- The scoop is not a reliable unit. It is recommended to change to ml ml
+- Make sure file paths are reasonable, file references are correct, no meaningless files are checked in
+- The description of garlic, referring to three heads or three cloves may lead to ambiguity
+- Allow `big fire` `medium fire` `small fire`
+- Any punctuation marks, such as commas, require additional confirmation whether `replaceable or`, or `must be added together with `
+- If a raw material is only counted once, but referenced multiple times, it must be additionally confirmed the amount of each reference
+- Make sure he updates the Readme reference to his recipe before merging, if he is adding a new recipe
+- Make sure he doesn't break the primary and secondary header formatting of the template
+- Make sure he doesn't delete the required content in the template
+- make sure he deletes the comments in the template
+- Make sure the classification is correct and does not duplicate the name of an existing dish
+- Make sure everything you check in is compliant with the CC0 protocol. Pay special attention to whether the picture has a watermark!
+- Make sure he doesn't check in any personally identifiable information, EUII, Email address, GitHub username
 
-## 文档网站构建
+## Documentation website building
 
-除了直接部署 `README.md` 的 HTML，还可以利用`mkdocs-material`来渲染 markdown 文件。这会得到更加漂亮的页面。
+In addition to directly deploying the HTML of `README.md`, you can also use `mkdocs-material` to render markdown files. This results in a prettier page.
 
-需求: Python > 3.6
+Requirements: Python > 3.6
 
-### 调试
+### debugging
 
 ```bash
 pip install -r requirements.txt
 mkdocs serve
 ```
 
-可以在本地 <http://localhost:8000/> 打开。
+Can be opened locally at <http://localhost:8000/>.
 
-### 编译
+### compile
 
 ```bash
 mkdocs build --strict
 ```
 
-生成静态 HTML 网页, 存在于在`site/`文件夹下。Hosting 的时候指向到`site/index.html`即可。
+Generates static HTML pages, which exist in the `site/` folder. When hosting, point to `site/index.html`.
 
 > **_Note:_**
-> 由于`mkdocs`不原生支持`*.md`存在于根目录下，只能添加了`mkdocs-same-dir`这个插件来做workaround。
-> 通常来说mkdoc会自动检查文件夹里的各种文件 (eg *.jpg)然后生成相对应的链接。由于这个
-> workaround，根目录下现在只能检测到`.md`文件。这个限制并不影响剩下的文件夹（比方说`tips`和`dishes`)。
+> Since `mkdocs` does not natively support `*.md` in the root directory, you can only add the `mkdocs-same-dir` plugin as a workaround.
+> Usually mkdoc will automatically check various files (eg *.jpg) in the folder and generate corresponding links. due to this
+> workaround, now only `.md` files can be detected in the root directory. This restriction does not affect the rest of the folders (like `tips` and `dishes`).
 
-## 手工 lint
+## manual lint
 
-如果需要检查文档中的不规范，可以手工运行 lint 操作。
+If you need to check for irregularities in the documentation, you can run a lint operation manually.
 
-需求：Ruby
+Requirements: Ruby
 
-### 安装 markdownlint
+### Install markdownlint
 
 ```bash
 sudo gem install mdl # Linux
@@ -140,27 +140,27 @@ sudo gem install mdl # Linux
 gem install mdl # Windows, with administrators permission.
 ```
 
-### 运行 lint
+### Run lint
 
 ```bash
 mdl . -r ~MD036,~MD024,~MD004,~MD029
 ```
 
-## 生成 Readme 和 mkdocs
+## Generate Readme and mkdocs
 
-一般的，每次 master 分支发生变更后，会自动生成 Readme 和 mkdocs 文件。但是，在某些情况下可能需要开发者手工生成这些文件。
+In general, Readme and mkdocs files are automatically generated every time the master branch is changed. However, in some cases the developer may be required to generate these files manually.
 
-需求：node,npm
+Requirements: node, npm
 
 ```bash
 node ./.github/readme-generate.js
 ```
 
-## 自动 markdown 修复
+## Automatic markdown fixes
 
-框架支持一些自动 markdown 错误修正功能。一般的，每次 master 分支发生变更后，会自动修正。但是，在某些情况下可能需要开发者手工修正。
+The framework supports some automatic markdown bugfixes. In general, every time the master branch changes, it will be automatically corrected. However, in some cases manual corrections by the developer may be required.
 
-需求：node,npm
+Requirements: node, npm
 
 ```bash
 npm install
