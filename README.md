@@ -1,15 +1,15 @@
-# programmer's-guide-about-how-to-cook-at-home
+# programmer's guide about how to cook at home
 
-Translated-from-https://github.com/Anduin2017/HowToCook
-Last-Translation-Update-05-April-2022
+[Translated from Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
+Last Translation Update 05 April 2022
 
 ## How-to-Contribute
 
-For-the-problems-found,-you-can-directly-modify-and-submit-a-Pull-request.
+For the problems found,you can  directly modify and submit a Pull request.
 
-When-writing-new-recipes,-copy-and-modify-existing-recipe-templates:-[Sample-Template](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
+[Sample-Template](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
 
-##-Cooking-Preparation
+## Cooking Preparation
 
 - [Kitchen-Preparation](./tips/厨房准备.md)
 - [Choose-what-to-eat](./tips/如何选择现在吃什么.md)
